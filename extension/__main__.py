@@ -12,7 +12,7 @@ def main():
         value_returned = search(args[0])
         ic('Interpreting summary of the search...')
         summary = bring_summary(value_returned[0])
-        ic('Here there is:')
+        ic('Here it is:')
         print(summary)
 
 if __name__ == '__main__':
